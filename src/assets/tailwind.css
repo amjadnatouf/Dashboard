@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.navbar {
+  @apply flex items-center justify-end md:justify-between p-3 border-b-2 border-gray-300;
+}
+.row {
+  @apply px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-500 uppercase border-b border-gray-200 bg-gray-100;
+}
+.avtar {
+  @apply w-10 h-10 rounded-full;
+}
+.body-row {
+  @apply px-6 py-4 border-b border-gray-200;
+}
+.status {
+  @apply inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full;
+}
+.update {
+  @apply px-6 py-4 text-sm font-medium leading-5 text-right border-b border-gray-200;
+}
+.icon {
+  @apply mx-2 px-2 rounded-md cursor-pointer;
+}
+.search {
+  @apply w-32 pl-10 pr-4 py-2 sm:w-96 rounded-3xl border-2 border-gray-300 outline-none;
+}
+.login {
+  @apply h-1/2 bg-gray-50;
+}
+.input {
+  @apply border-2 rounded-xl w-full indent-2;
+  line-height: 1.8;
+}
+.btn {
+  @apply text-2xl font-bold px-4 py-1 rounded-xl;
+  background-color: #c7ab21;
+}
