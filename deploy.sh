@@ -9,14 +9,14 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-# if you are deploying to a custom domain
-echo 'amjadnatouf/dahboard.com' > CNAME
+# # if you are deploying to a custom domain
+# echo 'amjadnatouf/dahboard.com' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f http://github.com/amjadnatouf/dashboard.git main:gh-pages
+git push -f git@github.com:amjadnatouf/dashboard.git master:gh-pages
 
 cd -
